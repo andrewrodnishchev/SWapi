@@ -1,0 +1,9 @@
+flutter_native_splash:
+  color: "#FFFFFF" # Цвет фона заставки
+  image: assets/Star-Wars-Logo-Background-PNG-Image.png # Путь к изображению заставки
+  image_dark: assets/Star-Wars-Logo-Background-PNG-Image.png # Путь к изображению заставки для темного режима
+  fit: contain # Режим масштабирования изображения (contain, cover, fill, none)
+  fill: true # Заполнить цветом фона при отсутствии изображения
+  android: true # Отключить генерацию заставки для Android (по умолчанию true)
+  ios: false # Отключить генерацию заставки для iOS (по умолчанию true)
+  splashTransitionDuration: 5000
